@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35795" started-at="2023-01-07T18:41:16Z" finished-at="2023-01-07T18:41:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35795" started-at="2023-01-07T18:41:16Z" finished-at="2023-01-07T18:41:52Z">
+      <class name="ui_tests.AmazonScript">
+        <test-method status="PASS" signature="amazonWorkFlow()[pri:0, instance:ui_tests.AmazonScript@183ec003]" name="amazonWorkFlow" duration-ms="35778" started-at="2023-01-08T00:11:16Z" finished-at="2023-01-08T00:11:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonWorkFlow -->
+      </class> <!-- ui_tests.AmazonScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

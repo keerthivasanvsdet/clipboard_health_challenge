@@ -1,0 +1,111 @@
+[RemoteTestNG] detected TestNG version 6.8.9
+2023-01-08 00:11:15,868 main DEBUG Initializing configuration XmlConfiguration[location=C:\Users\Keerthivasan\Downloads\clipboard_health_challenge\target\classes\log4j2.xml]
+2023-01-08 00:11:15,876 main DEBUG Installed script engines
+2023-01-08 00:11:16,211 main DEBUG Oracle Nashorn Version: 1.8.0_102, Language: ECMAScript, Threading: Not Thread Safe, Compile: true, Names: {nashorn, Nashorn, js, JS, JavaScript, javascript, ECMAScript, ecmascript}
+2023-01-08 00:11:16,211 main DEBUG PluginManager 'Core' found 112 plugins
+2023-01-08 00:11:16,212 main DEBUG PluginManager 'Level' found 0 plugins
+2023-01-08 00:11:16,216 main DEBUG PluginManager 'Lookup' found 13 plugins
+2023-01-08 00:11:16,219 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2023-01-08 00:11:16,236 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2023-01-08 00:11:16,250 main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %d{yyyy-MM-dd HH:mm:ss.SSS} [%t]    %c{1} %logger{36} - %msg%n", PatternSelector=null, Configuration(C:\Users\Keerthivasan\Downloads\clipboard_health_challenge\target\classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2023-01-08 00:11:16,251 main DEBUG PluginManager 'Converter' found 41 plugins
+2023-01-08 00:11:16,273 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2023-01-08 00:11:16,285 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %d{yyyy-MM-dd HH:mm:ss.SSS} [%t]    %c{1} %logger{36} - %msg%n), name="Console", Configuration(C:\Users\Keerthivasan\Downloads\clipboard_health_challenge\target\classes\log4j2.xml), Filter=null)
+2023-01-08 00:11:16,286 main DEBUG Jansi is not installed, cannot find org.fusesource.jansi.WindowsAnsiOutputStream
+2023-01-08 00:11:16,286 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2023-01-08 00:11:16,287 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2023-01-08 00:11:16,288 main DEBUG createAppenders(={Console})
+2023-01-08 00:11:16,289 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2023-01-08 00:11:16,295 main DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+2023-01-08 00:11:16,295 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2023-01-08 00:11:16,297 main DEBUG createLogger(additivity="null", level="INFO", includeLocation="null", ={Console}, ={}, Configuration(C:\Users\Keerthivasan\Downloads\clipboard_health_challenge\target\classes\log4j2.xml), Filter=null)
+2023-01-08 00:11:16,301 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2023-01-08 00:11:16,303 main DEBUG createLoggers(={root})
+2023-01-08 00:11:16,304 main DEBUG Configuration XmlConfiguration[location=C:\Users\Keerthivasan\Downloads\clipboard_health_challenge\target\classes\log4j2.xml] initialized
+2023-01-08 00:11:16,304 main DEBUG Starting configuration XmlConfiguration[location=C:\Users\Keerthivasan\Downloads\clipboard_health_challenge\target\classes\log4j2.xml]
+2023-01-08 00:11:16,305 main DEBUG Started configuration XmlConfiguration[location=C:\Users\Keerthivasan\Downloads\clipboard_health_challenge\target\classes\log4j2.xml] OK.
+2023-01-08 00:11:16,306 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2023-01-08 00:11:16,306 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2023-01-08 00:11:16,307 main DEBUG Appender DefaultConsole-1 stopped with status true
+2023-01-08 00:11:16,308 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@76b0bfab OK
+2023-01-08 00:11:16,373 main DEBUG Registering MBean org.apache.logging.log4j2:type=5c647e05
+2023-01-08 00:11:16,377 main DEBUG Registering MBean org.apache.logging.log4j2:type=5c647e05,component=StatusLogger
+2023-01-08 00:11:16,379 main DEBUG Registering MBean org.apache.logging.log4j2:type=5c647e05,component=ContextSelector
+2023-01-08 00:11:16,382 main DEBUG Registering MBean org.apache.logging.log4j2:type=5c647e05,component=Loggers,name=
+2023-01-08 00:11:16,385 main DEBUG Registering MBean org.apache.logging.log4j2:type=5c647e05,component=Appenders,name=Console
+2023-01-08 00:11:16,390 main DEBUG Reconfiguration complete for context[name=5c647e05] at URI C:\Users\Keerthivasan\Downloads\clipboard_health_challenge\target\classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@35dab4eb) with optional ClassLoader: null
+2023-01-08 00:11:16,391 main DEBUG Shutdown hook enabled. Registering a new one.
+2023-01-08 00:11:16,393 main DEBUG LoggerContext[name=5c647e05, org.apache.logging.log4j.core.LoggerContext@35dab4eb] started OK.
+[TestNG] Running:
+  C:\Users\Keerthivasan\AppData\Local\Temp\testng-eclipse--1042920047\testng-customsuite.xml
+
+00:11:16.536 [main] INFO  2023-01-08 00:11:16.536 [main]    Common pages.Common - Read all data from config.json & locators.json
+2023-01-08 00:11:16,549 main DEBUG AsyncLogger.ThreadNameStrategy=CACHED
+00:11:16.553 [main] INFO  2023-01-08 00:11:16.553 [main]    Common pages.Common - *******************************************
+00:11:16.553 [main] INFO  2023-01-08 00:11:16.553 [main]    Common pages.Common -  
+00:11:16.553 [main] INFO  2023-01-08 00:11:16.553 [main]    Common pages.Common - Executing Scenario: Amazon Product Checkout
+00:11:16.553 [main] INFO  2023-01-08 00:11:16.553 [main]    Common pages.Common -  
+00:11:16.553 [main] INFO  2023-01-08 00:11:16.553 [main]    Common pages.Common - *******************************************
+00:11:16.554 [main] INFO  2023-01-08 00:11:16.554 [main]    Common pages.Common - Product: Amazon
+00:11:16.554 [main] INFO  2023-01-08 00:11:16.554 [main]    Common pages.Common - Author: Keerthivasan
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 63625
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 08, 2023 12:11:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 08, 2023 12:11:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: a no-op implementation
+Jan 08, 2023 12:11:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 108.
+Jan 08, 2023 12:11:21 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+00:11:21.758 [main] INFO  2023-01-08 00:11:21.758 [main]    Common pages.Common - Launched Chrome Driver
+00:11:21.777 [main] INFO  2023-01-08 00:11:21.777 [main]    Common pages.Common - Have set implicit timeout of 10 Seconds
+00:11:31.539 [main] INFO  2023-01-08 00:11:31.539 [main]    Common pages.Common - Loading the Page: https://www.amazon.in
+00:11:31.656 [main] INFO  2023-01-08 00:11:31.656 [main]    Common pages.Common - Home Page is Displayed
+00:11:33.977 [main] INFO  2023-01-08 00:11:33.977 [main]    Common pages.Common - Clicked Hamburger Menu
+00:11:34.143 [main] INFO  2023-01-08 00:11:34.143 [main]    Common pages.Common - Clicked TVAppliancesElectronic Menu
+00:11:35.496 [main] INFO  2023-01-08 00:11:35.496 [main]    Common pages.Common - Clicked Televisions Menu
+00:11:36.845 [main] INFO  2023-01-08 00:11:36.845 [main]    Common pages.Common - ProductListing Page is Displayed
+00:11:40.716 [main] INFO  2023-01-08 00:11:40.716 [main]    Common pages.Common - Clicked SamsungBrand Option in ProductListing Page
+00:11:41.196 [main] INFO  2023-01-08 00:11:41.196 [main]    Common pages.Common - Clicked SortBy Option in ProductListing Page
+00:11:44.374 [main] INFO  2023-01-08 00:11:44.374 [main]    Common pages.Common - Clicked Descending Option in ProductListing Page
+00:11:44.652 [main] INFO  2023-01-08 00:11:44.652 [main]    Common pages.Common - Clicked SecondTelevisionProduct in ProductListing Page
+00:11:51.170 [main] INFO  2023-01-08 00:11:51.170 [main]    Common pages.Common - Product About Content: Resolution: 4K Ultra HD (3840 x 2160) | Refresh Rate: 120 hertz
+Connectivity : 3 HDMI ports to connect set top box, Blue Ray players | 2 USB ports to connect hard drives and other USB devices
+Sound : 20 Watts Output | Blutooth Audio
+Display : LED Panel | PurColour | HDR 10+ | Slim with modern simplicity | Dynamic Crystal Colour
+Smart TV Features : A intelligent way to enjoy the smart TV | Built-in WiFi | SmartThings App, just one app for all | Content Sync & Share
+Warranty Information: 1 Year Comprehensive + 1 Year Additional on Panel by Samsung from date of purchase
+Installation: For requesting Samsung sanitized installation/wallmounting/demo of this product once delivered, please directly call Samsung support on [1800407267864/180057267864] and provide product's model name as well as seller's details mentioned on the invoice
+00:11:52.225 [main] INFO  2023-01-08 00:11:52.225 [main]    Common pages.Common - Closed the Chrome Browser
+PASSED: amazonWorkFlow
+
+===============================================
+    Default test
+    Tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@26f67b76: 4 ms
+[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@2d3fcdbd: 71 ms
+[TestNG] Time taken by org.testng.reporters.jq.Main@34b7bfc0: 57 ms
+[TestNG] Time taken by org.testng.reporters.XMLReporter@2096442d: 7 ms
+[TestNG] Time taken by [FailedReporter passed=0 failed=0 skipped=0]: 1 ms
+[TestNG] Time taken by org.testng.reporters.EmailableReporter2@13c78c0b: 7 ms
+2023-01-08 00:11:52,423 pool-1-thread-1 DEBUG Stopping LoggerContext[name=5c647e05, org.apache.logging.log4j.core.LoggerContext@35dab4eb]
+2023-01-08 00:11:52,434 pool-1-thread-1 DEBUG Stopping LoggerContext[name=5c647e05, org.apache.logging.log4j.core.LoggerContext@35dab4eb]...
+2023-01-08 00:11:52,439 pool-1-thread-1 DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false
+2023-01-08 00:11:52,442 pool-1-thread-1 DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false, all resources released: true
+2023-01-08 00:11:52,443 pool-1-thread-1 DEBUG Appender Console stopped with status true
+2023-01-08 00:11:52,443 pool-1-thread-1 DEBUG Stopped XmlConfiguration[location=C:\Users\Keerthivasan\Downloads\clipboard_health_challenge\target\classes\log4j2.xml] OK
+2023-01-08 00:11:52,444 pool-1-thread-1 DEBUG Stopped LoggerContext[name=5c647e05, org.apache.logging.log4j.core.LoggerContext@35dab4eb] with status true

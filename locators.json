@@ -1,0 +1,13 @@
+{	
+	"HomePageCarousel": "//*[@id='anonCarousel1']",
+    "HamburgerMenu": "//*[@id='nav-hamburger-menu']",
+    "TVAppliancesElectronicMenu": "//*[contains(text(),'TV, Appliances, Electronics')]",
+    "TelevisionsMenu": "//*[contains(text(),'Televisions')]",
+    "SamsungBrandOption": "//*[@class='a-section a-spacing-small']//span[starts-with(text(),'Brands')]//following::span[contains(text(),'Samsung')]",
+    "CategoryText": "//*[contains(text(),'Category')]",
+    "SortByOption": "//*[@class='a-dropdown-label' and contains(text(),'Sort by:')]",
+    "DescendingOption": "//*[@id='s-result-sort-select_2' and contains(text(),'Price: High to Low')]",
+    "SecondTelevisionProduct": "(//*[@class='a-section aok-relative s-image-square-aspect'])[2]",
+    "AboutThisItemText": "//*[contains(text(),'About this item')]",
+    "AboutThisItemContent": "//*[@class='a-unordered-list a-vertical a-spacing-mini']"
+}
